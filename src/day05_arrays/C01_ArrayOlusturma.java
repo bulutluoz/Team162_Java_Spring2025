@@ -34,8 +34,26 @@ public class C01_ArrayOlusturma {
         int[] sayilar = new int[5];
 
 
+        String metin = "Java Guzeldir";
+
+        // metin'de kac karakter kullanilmis?
+
+        System.out.println( metin.length() ); // 13
 
 
+        int[] rakamlar = {5,4,7,1,3};
+        System.out.println(  rakamlar.length ); // 5
+
+        // rakamlar array'inin icindeki ilk sayiyi yazdirin
+
+        System.out.println(  rakamlar[0]  ); // 5
+
+
+        // rakamlar array'inin icindeki ucuncu sayiyi yazdirin
+        System.out.println(  rakamlar[2] ); // 7
+
+        // System.out.println( rakamlar[22]  );
+        // ArrayIndexOutOfBoundsException: Index 22 out of bounds for length 5
 
     }
 }
