@@ -5,6 +5,7 @@ public class C01_Hastane {
 
 
 
+
     static String hastaneIsmi = "Yildiz Hastanesi";
     static String hastaneAdresi = "Cankaya";
     static String bashekimIsmi = "Dr Yusuf";
